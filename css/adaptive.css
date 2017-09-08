@@ -1,0 +1,57 @@
+@media (min-width: 1200px) {
+    .mainContext {
+        height: 400px;
+    }
+}
+
+@media (min-width: 2100px) {
+    .mainContext {
+        height: 500px;
+    }
+}
+
+/*------------------------       Medium devices (tablets, 768px and up)    ------------------------*/
+@media (min-width: 768px) {
+}
+
+/*------------------------       Medium devices (tablets, less than 992px)    ------------------------*/
+@media (max-width: 991px) {
+}
+
+/*-----------------------       Large devices (desktops, 992px and up)    -------------------------*/
+@media (min-width: 992px) {
+}
+
+/*-----------------------     Extra large devices (large desktops, 1200px and up)    -------------------------*/
+@media (min-width: 1200px) {
+}
+
+/*-------------------   Small devices (landscape phones, less than 768px)    --------------------*/
+@media (max-width: 767px) {
+    .mainContent {
+        padding: 15px 50px 15px 50px;
+    }
+    .mainContext {
+        height: 150px;
+    }
+    .mainContent h1 {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .mainContext .text {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .mainContext .subText {
+        font-size: 11px;
+    }
+
+    .mainContext .btn {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.875rem;
+        border-radius: 0.2rem;
+    }
+
+}
